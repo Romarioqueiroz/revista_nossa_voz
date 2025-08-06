@@ -11,7 +11,7 @@ function App() {
           </div>
 
           <div>
-            <h3>lorem ipsum</h3>
+            <h3>lorxem ipsum</h3>
             <h3>lorem ipsum</h3>
             <h3>lorem ipsum</h3>
             <h3>lorem ipsum</h3>
