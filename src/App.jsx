@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import TextDefault from "./components/TextDefault";
 
 function App() {
   return (
@@ -16,30 +17,12 @@ function App() {
                 />
               </div>
             </div>
-            <div className="flex flex-col justify-center items-start w-1/2 border border-blue-500 ">
-              <h3 className=" text-4xl font-bold text-cyan-600">
-                Ponte dos Ingleses
-              </h3>
-              <h4 className="text-4xl font-extralight text-yellow-400">
-                Turismo, lazer e cidadania
-              </h4>
-
-              <p className="flex flex-row py-3 mr-20">
-                At Lorem Ipsum, our team is a diverse mix of creatives,
-                tinkerers, developers, designers, hackers, and tech enthusiasts.
-                Just like the classic placeholder text, ‘Lorem Ipsum,’ which
-                represents the blend of structure and creativity, we embody that
-                spirit by crafting innovative solutions that balance form and
-                function. We thrive on inventing and building with a strong
-                creative vision, ensuring that optimization, security, and
-                usability are always non-negotiable.
-              </p>
-              <div className="py-5">
-                <button className="bg-cyan-600 py-2 px-12 text-amber-50">
-                  LER MAIS
-                </button>
-              </div>
-            </div>
+            <TextDefault
+              title="Ponte dos Ingleses"
+              subtitle="Turismo, lazer e cidadania"
+              text="At Lorem Ipsum, our team is a diverse mix of creatives, tinkerers, developers, designers, hackers, and tech enthusiasts. Just like the classic placeholder text, ‘Lorem Ipsum,’ which represents the blend of structure and creativity, we embody that spirit by crafting innovative solutions that balance form and function. We thrive on inventing and building with a strong creative vision, ensuring that optimization, security, and usability are always non-negotiable."
+              buttonText="LER MAIS"
+            />
           </div>
         </section>
         <section>
