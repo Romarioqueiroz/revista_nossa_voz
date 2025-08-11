@@ -1,4 +1,4 @@
-const TextDefault = ({
+const SecondTextDefault = ({
   title,
   subtitle,
   text,
@@ -23,4 +23,4 @@ const TextDefault = ({
   );
 };
 
-export default TextDefault;
+export default SecondTextDefault;
