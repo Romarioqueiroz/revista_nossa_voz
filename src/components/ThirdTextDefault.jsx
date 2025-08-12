@@ -8,8 +8,8 @@ const ThirdTextDefault = ({
   subtitleColor,
 }) => {
   return (
-    <div className="flex w-1/2">
-      <div className="flex flex-col justify-start items-start pr-4">
+    <div className="flex flex-col justify-center w-1/2">
+      <div className="flex flex-col justify-center items-start pr-4">
         <h3 className={`text-4xl font-bold ${titleColor}`}>{title}</h3>
         <h4 className={`text-4xl font-extralight ${subtitleColor}`}>
           {subtitle}
@@ -24,8 +24,6 @@ const ThirdTextDefault = ({
         </div>
       </div>
     </div>
-    
-    
   );
 };
 
