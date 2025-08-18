@@ -5,7 +5,7 @@ const ReadMoreComponent = () => {
       <p className=" text-center py-1 w-60">
         At Lorem Ipsum, our team is a diverse mix of creatives
       </p>
-      <button className="bg-lime-600 py-1 px-6 text-white">Acessar</button>
+      <button className="bg-lime-600 py-1 px-6 text-white">Ler mais</button>
     </div>
   );
 };

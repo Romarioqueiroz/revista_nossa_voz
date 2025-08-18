@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Logo from "./components/Logo";
 import ReadMoreComponent from "./components/ReadMoreComponent";
 import TextDefault from "./components/TextDefault";
-import ThirdTextDefault from "./components/ThirdTextDefault";
+import SecondTextDefault from "./components/SecondTextDefault";
 
 function App() {
   return (
@@ -80,7 +80,7 @@ function App() {
         </section>
         <section className="py-4">
           <div className=" flex justify-center h-[500px] px-7">
-            <ThirdTextDefault
+            <SecondTextDefault
               title="Bodegas"
               subtitle="radição & resiliência"
               text=" At Lorem Ipsum, our team is a diverse mix of creatives, tinkerers,
